@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Example</title>
+</head>
+<body>
+
+<!-- Your modal element -->
+<div id="my_modal_5">
+    <!-- Modal content goes here -->
+    <p>Modal Content</p>
+</div>
+
+<!-- Your phone-name element -->
+<div id="phone-name"></div>
+
+<!-- Your script -->
+<script>
+    const show = (phone) => {
+        console.log(phone);
+        const phoneName = document.getElementById('phone-name');
+        phoneName.innerText = 'hi' ;
+        my_modal_5.showModal(); // Make sure my_modal_5 is defined and has the showModal method
+    }
+</script>
+
+</body>
+</html>
