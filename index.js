@@ -25,7 +25,7 @@ const displayPhone= (phones, isShowAll) =>{
     const phoneCard= document.createElement('div')
     phoneCard.classList= `card w-80 lg:w-96 p-4 mx-auto bg-base-100 shadow-xl`
     phoneCard.innerHTML=`
-    <figure><img src ="${phone.image}" /></figure>
+    <figure><img class="rounded-lg" src ="${phone.image}" /></figure>
           <div class="card-body">
             <h2 class="card-title"> ${phone.phone_name} </h2>
             <span class="card-title"> ${phone.brand} </span
